@@ -10,7 +10,7 @@ public class Java_02_Variables {
 		System.out.println("number"); // number_ Coz here number is string literal
 		System.out.println(number);  // 5 the variable will be called here 
 		int number1 =5;
-		System.out.println("After addition value of num is "+number+number1); // 16 it adds the new value aswell
+		System.out.println("After addition value of num is "+number+number1); // 16 it adds the new value aswell and
 	
 	}
 }
