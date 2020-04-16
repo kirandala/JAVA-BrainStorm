@@ -1,5 +1,8 @@
 package Basic_01;
-
+/**
+ * @author kirandalai
+ *
+ */
 public class Java_03_datatype_float_double {
 	/* floating point number have decimeal points and we need to add floating point number incase we need precision
 	 * precision refers to the format and amount of space occupied by the type. single precision(float) occupies 32 bits(So has width of 32) 
