@@ -1,5 +1,8 @@
 package Basic_01;
-
+/**
+ * @author kirandalai
+ *
+ */
 public class Java_03_datatypes {
 /* Java 8 primitive types: byte,short,int,long,char.boolean ,float and double(building blocks of data manipulation )
   >less data type will take less space and will execute faster 

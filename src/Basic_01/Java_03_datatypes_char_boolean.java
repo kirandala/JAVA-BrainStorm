@@ -1,5 +1,8 @@
 package Basic_01;
-
+/**
+ * @author kirandalai
+ *
+ */
 public class Java_03_datatypes_char_boolean {
 /*  char stores characters in this case only single character example: last key used by a programmer or menu option to select 
  * char occupies two bytes of memory or 16 bits coz it also stores unicode characters 
