@@ -33,6 +33,11 @@ public class Java_04_Operators {
 // We also have decrement operator similarly  
 		result --; // result =result-1
 		System.out.println("Resut value after decrementing 1  is "+ result);	
+		if(result<=10) {
+			System.out.println(" code is high");
+		}
+		else { System.out.println(" code is out of if statement ");
+		}
 	}
 
 }

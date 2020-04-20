@@ -21,7 +21,7 @@ public class Java_05_ifthen_statements {
 		System.out.println("entered the code block 1 ");// code is not printed 
 	}
 	else { System.out.println("Enterd the code block 2 where == is used");}
-// Tring to print with another statment in the else statement 	
+// Trying to print with another statement in the else statement 	
 	if(isbadboy!=false) { 
 		System.out.println("entered the code block 1 where != is used");// code is not printed 
 	}
