@@ -35,7 +35,7 @@ public class Java_06_ifstatementcodeblocks {
 
 		if (score == 400) {
 			int finalval = score + 100;
-
+			
 		}
 		// System.out.println(finalval); // finalval will print error coz the variable
 		// is created and deleted after the if statement so cannot be resolved.
