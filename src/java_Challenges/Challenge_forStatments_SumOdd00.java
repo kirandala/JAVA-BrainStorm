@@ -50,7 +50,6 @@ public class Challenge_forStatments_SumOdd00 {
 	 */
 	public static void main(String[] args) {
 
-
 	}
 
 }
