@@ -73,5 +73,7 @@ public class Challenge_switchstatment_numberOfDays00 {
 
 
 	}
-
+public static void isLeapYear(int year) {
+	
+}
 }
