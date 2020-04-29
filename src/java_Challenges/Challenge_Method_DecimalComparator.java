@@ -4,7 +4,7 @@ package java_Challenges;
  * @author kiran dalai
  *
  */
-public class Challenge_Method_DecimalComparator00 {
+public class Challenge_Method_DecimalComparator {
 	/*
 	 * Write a method areEqualByThreeDecimalPlaces with two parameters of type
 	 * double.
@@ -38,7 +38,27 @@ public class Challenge_Method_DecimalComparator00 {
 	 */
 	public static void main(String[] args) {
 
+		System.out.println(areEqualByThreeDecimalPlaces(-3.1756, -3.175)); // → should return true since
+		// numbers are equal up to 3 decimal places.
 
+		System.out.println(areEqualByThreeDecimalPlaces(3.175, 3.176));// → should return false since
+		// numbers are not equal up to 3 decimal places
+
+		System.out.println(areEqualByThreeDecimalPlaces(3.0, 3.0));// → should return true since numbers
+		// are equal up to 3 decimal places.
+
+		System.out.println(areEqualByThreeDecimalPlaces(-3.123, 3.123)); // → should return false since
+		// numbers are not equal up to 3 decimal places.
 	}
 
+	public static boolean areEqualByThreeDecimalPlaces(double a, double b) {
+		a = (int)(a * 1000);
+		System.out.println(a);
+		b = (int)(b * 1000);
+		System.out.println(b);
+		if (a == b) {
+			return true;
+		}
+		return false;
+	}
 }

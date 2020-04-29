@@ -4,7 +4,7 @@ package java_Challenges;
  * @author kiran dalai
  *
  */
-public class Challenge_Method_LeapyearCaluculation00 {
+public class Challenge_Method_LeapyearCaluculation {
 
 	/*
 	 * Write a method isLeapYear with a parameter of type int named year.
@@ -48,12 +48,30 @@ public class Challenge_Method_LeapyearCaluculation00 {
 	 * code.
 	 */
 	public static void main(String[] args) {
+		System.out.println(isLeapYear(-1600));// → should return false since the parameter is not in range (1-9999)
 
+		System.out.println(isLeapYear(1600));// → should return true since 1600 is a leap year
+
+		System.out.println(isLeapYear(2017)); // → should return false since 2017 is not a leap year
+
+		System.out.println(isLeapYear(2000)); // → should return true because 2000 is a leap year
+
+		System.out.println(isLeapYear(1994));
 	}
 
 	public static boolean isLeapYear(int year) {
 		if (year >= 1 && year <= 9999) {
-
+			if (year % 4 == 0) {
+				if (year % 100 == 0) {
+					// year is divisible by 400, hence the year is a leap year
+					if (year % 400 == 0)
+						return true;
+					else
+						return false;
+				} else
+					return true;
+			} else
+				return false;
 		}
 		return false;
 	}
