@@ -1,4 +1,4 @@
-package java_07_OOPs.ReferenceNobject;
+package java_07_OOPs.Analogy;
 
 public class Java_12_RefereceObject {
 	/*
