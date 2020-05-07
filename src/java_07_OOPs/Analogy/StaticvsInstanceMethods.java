@@ -1,7 +1,7 @@
 package java_07_OOPs.Analogy;
 
 /**
- * @author kirandalai
+ * @author kiran dalai
  *
  */
 public class StaticvsInstanceMethods {
@@ -11,10 +11,10 @@ public class StaticvsInstanceMethods {
 	 *
 	 * Static methods Cant's access instance methods and instance variables directly
 	 *
-	 * They are usualy user for operation that dont require any data from an
+	 * They are usually user for operation that don't require any data from an
 	 * instance of the class(from this)
 	 *
-	 * the this keyword is the current instance of the class so, we cant use this
+	 * the this keyword is the current instance of the class so, we can't use this
 	 * keyword.
 	 *
 	 * Whenever you see a method that does not use instance variables that method
