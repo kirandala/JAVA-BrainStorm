@@ -7,7 +7,7 @@ package java_03_flowControl;
 public class Java_06_ifstatementcodeblocks {
 	/*
 	 * if statement identifies which statement or code block to run based on the
-	 * value of an expression inside the code block of { and } we can hae one or Multiple statements
+	 * value of an expression inside the code block of { and } we can have one or Multiple statements
 	 * 
 	 * 
 	 */
