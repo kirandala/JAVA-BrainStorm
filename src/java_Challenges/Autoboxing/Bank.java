@@ -71,6 +71,5 @@ public class Bank {
 		} else {
 			return false;
 		}
-
 	}
 }
