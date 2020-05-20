@@ -21,6 +21,29 @@ public class Challenge_MethodOverloading_secondsNminutes {
 	 * if it is valid,then calculate how many more minutes are in seconds value and
 	 * then call the other overloaded method passing the correct minutes and seconds
 	 * calculated so that it can calculate correctly. call both the methods
+	 * 
+	 * Method overloading means providing two or more separate methods in a class with the same name but different parameters
+	 * Method return type may or may ot be different and that allows us to reuse the same method name.
+	 * Overloading is very handy, it reduces duplicated code and we don't have to remember multiple method names 
+	 * 
+	 * Overloading does not have anything to do with polymorphism but java developers refer to overloading as compile time polymorphism 
+	 * 
+	 * in other words the compiler decided which method is method name return type and argument list.
+	 * 
+	 * Usually overloading happens inside a single class but a method can also be treated as overloaded in the subclass of that class
+	 * thats because subclass inherits one version of the methods from the parent class and then the subclass can have another overloaded version of the methods
+	 * 
+	 * Rule while method overloading 
+	 * 1.Method must have the same method name
+	 * 2.Methods must have different parameters 
+	 * 
+	 * if methods follow the rules above then they may or may not 
+	 * have different return types
+	 * have different access modifiers 
+	 * throw different checked or unchecked exceptions.
+	 * 
+	 * 
+	 * 
 	 */
 	public static void main(String[] args) {
 		System.out.println(getDurationString(120, 30));
