@@ -25,7 +25,7 @@ public class Java_09_WhileStatements {
 		int count = 5;
 		while (count != 10) { // this code block will run until the condition is met and once the condition
 								// becomes false it quits
-			System.out.println("Count vlaues is " + count);
+			System.out.println("Count values is " + count);
 			count++;
 		}
 
