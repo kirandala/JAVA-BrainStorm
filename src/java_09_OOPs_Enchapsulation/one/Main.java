@@ -25,7 +25,7 @@ public class Main {
 		plr.health = 20;
 		plr.weapon = "sword";
 
-		int damage = 10;
+		int damage = 20;
 		plr.losshealth(damage);
 		System.out.println("remainig health" + plr.healthleft());
 		damage = 11;
